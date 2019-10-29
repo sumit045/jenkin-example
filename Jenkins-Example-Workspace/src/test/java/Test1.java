@@ -1,3 +1,5 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -11,6 +13,10 @@ public class Test1 {
 	@Test
 	public void test()
 	{
+		System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("https://www.google.com/");
 		
 		System.out.println("This is for testing");
 
