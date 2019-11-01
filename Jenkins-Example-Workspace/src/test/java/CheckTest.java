@@ -7,7 +7,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class Test1 {
+public class CheckTest {
 
 	
 	@Test
@@ -20,7 +20,7 @@ public class Test1 {
 		
 		System.out.println("This is for testing");
 
-		ExtentHtmlReporter reporter = new ExtentHtmlReporter("C:\\Users\\SumitKumar\\eclipse-workspace\\Sumit_Workspace\\jenkin-example\\Jenkins-Example-Workspace\\Reports\\HTMLReport.html");
+		/*ExtentHtmlReporter reporter = new ExtentHtmlReporter("C:\\Users\\SumitKumar\\eclipse-workspace\\Sumit_Workspace\\jenkin-example\\Jenkins-Example-Workspace\\Reports\\HTMLReport.html");
 		
 		ExtentReports extentReport = new ExtentReports();
 		extentReport.attachReporter(reporter);
@@ -28,7 +28,7 @@ public class Test1 {
 		ExtentTest logger = extentReport.createTest("Testing");
 		logger.log(Status.INFO, "Testing Report");
 		
-		extentReport.flush();
+		extentReport.flush();*/
 		
 	}
 
