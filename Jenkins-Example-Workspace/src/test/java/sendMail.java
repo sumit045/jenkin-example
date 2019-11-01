@@ -13,12 +13,12 @@ import javax.mail.PasswordAuthentication;
 
 public class sendMail {
 
-	static final String myAccount = "sumit619.hellboy@gmail.com";
-	static final String password = "iwilltakeyou2hell";
+	static final String myAccount = "murari.krishna1@ikea.com";
+	static final String password = "india12b";
 	
 	public static void main(String[] args) throws MessagingException {
 		
-		new sendMail().mailTrigger("lazymowgli@gmail.com");
+		new sendMail().mailTrigger("murari.krishna1@ikea.com");
 
 	}
 
@@ -26,11 +26,11 @@ public class sendMail {
 	{
 		System.out.println("Preparing message");
 		Properties properties = new Properties();
-		
+		//d25ml01.ibm.com
 		properties.put("mail.smtp.auth", "true");
 		properties.put("mail.smtp.starttls.enable", "true");
-		properties.put("mail.smtp.host", "smtp.gmail.com");
-		properties.put("mail.smtp.port", "587");
+		properties.put("mail.smtp.host", "smtp-gw.ikea.com");
+		properties.put("mail.smtp.port", "25");
 		
 		
 		
