@@ -18,7 +18,7 @@ public class CheckTest {
 		
 		driver.get("https://www.google.com/");
 		
-		System.out.println("This is for testing");
+		System.out.println("This is for testing run by jenkins");
 
 		/*ExtentHtmlReporter reporter = new ExtentHtmlReporter("C:\\Users\\SumitKumar\\eclipse-workspace\\Sumit_Workspace\\jenkin-example\\Jenkins-Example-Workspace\\Reports\\HTMLReport.html");
 		
